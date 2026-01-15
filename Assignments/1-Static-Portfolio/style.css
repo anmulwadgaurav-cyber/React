@@ -1,0 +1,198 @@
+@font-face {
+    font-family: goolge;
+    src: url(./Fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
+:root{
+    --pri: #F3F3F3;
+    --sec: #2C2C2C;
+    --ter: #D6D6D6;
+    --text: #6f6f6f;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: goolge;
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: var(--pri);
+}
+
+.nav{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.left-side{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.btn-div{
+    display: flex;
+    gap: 20px;
+}
+
+.btn-div a{
+    cursor: pointer;
+    color: var(--text);
+    border-bottom: 1px solid transparent;
+    transition: all ease 0.2s;
+}
+
+.btn-div a:hover{
+    border-bottom: 1px solid var(--sec);
+    color: var(--sec);
+}
+
+.book-call {
+    border-bottom: 1px solid var(--sec);
+    cursor: pointer;
+    color: var(--sec);
+}
+
+
+.logo{
+    font-size: 24px;
+    color: var(--sec);
+    cursor: pointer;
+    transition: all ease 0.1s;
+}
+
+.logo:hover{
+    opacity: 0.8;
+}
+
+/* end of nav */
+
+.hero{
+    height: 85%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    overflow: hidden;
+}
+
+.left-side-panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    width: 35%;
+    gap: 10px;
+
+    
+    position: absolute;
+    top: 50%;
+    left: -14%;
+    transform: rotate(-90deg);
+
+    white-space: nowrap;
+
+    color: var(--text);
+
+    opacity: 0.5;
+}
+
+.left-side-panel .line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--text);
+}
+
+.right-side-panel{
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-side-panel .top-section{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+}
+
+
+.right-side-panel .digit{
+    font-size: 48px;
+    color: var(--sec);
+    display: flex;
+    font-weight: 200;
+}
+
+.right-side-panel .text{
+    color: var(--text);
+    margin-left: 25px;
+}
+
+.digit i, .text i{
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.greet{
+    top: 30%;
+    margin-bottom: 100px;
+}
+
+.greet .hello-word{
+    font-weight: 300;
+    font-size: 160px;
+    margin-bottom: -20px;
+    color: var(--sec);
+}
+
+.greet .author{
+    font-size: 20px;
+    color: var(--sec);
+}
+
+.scroll-down-btn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: var(--sec);
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    block-size: auto;
+}
+
+.scroll-down-btn:hover{
+    border-bottom: 1px solid var(--sec);
+}
+
+.model-image{
+    min-height: 630px;
+    min-width: 700px;
+    background-image: url(./images/image.png);
+    background-size: cover;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    mix-blend-mode:darken;
+}
