@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@font-face {
+    font-family: squeeze;
+    src: url(./assets/fonts/BarlowCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: main;
+    src: url(./assets/fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
+}
+body{
+    background-color: #060503;
+    color: white;
+    font-family: main;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
