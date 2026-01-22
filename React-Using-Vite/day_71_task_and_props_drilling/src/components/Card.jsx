@@ -1,6 +1,4 @@
 import React from "react";
-import imageOne from "../assets/images/userOne.jpg";
-import sceneOne from "../assets/images/scene.jpg";
 
 const Card = (props) => {
   return (
