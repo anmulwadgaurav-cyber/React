@@ -8,11 +8,19 @@
   src: url(./assets/fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
 }
 body {
-  background-color: #060503;
-  color: white;
+  background-color: rgb(239, 239, 239);
+  color: black;
   font-family: main;
 }
 
 body::-webkit-scrollbar {
+  display: none;
+}
+
+.true{
+  display: flex;
+  color: red;
+}
+.false{
   display: none;
 }
