@@ -18,7 +18,7 @@ const Signin = () => {
         <p className="font-medium w-fit text-end cursor-pointer text-sm hover:text-blue-600 transition-all ease-in duartion-200">
           Forgot Password?
         </p>
-        <Button text="Login" color="blue" />
+        <Button text="Login"/>
       </form>
     </div>
   );

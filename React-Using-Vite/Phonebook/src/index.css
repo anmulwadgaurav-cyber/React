@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@font-face {
+  font-family: main;
+  src: url(./assets/fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
+*{
+
+box-sizing: border-box;
+
+}
+html, body{
+height: 100%;
+width: 100%;
+}
+
+body{
+  font-family: main;
+  background-color: #f1f1f1;
+}
+
+.btnStyle{
+  @apply px-5 py-2.5 text-white bg-blue-600 hover:bg-blue-700 cursor-pointer active:scale-95 transition-all ease-in duration-100 rounded
+}
+
+.inputStyle{
+  @apply border px-5 py-2.5 border-gray-300 outline-none focus:border-blue-600 transition-all ease-in duration-100 rounded
+}
+
+.storedData:nth-child(2n+1){
+  background-color: rgb(243, 243, 243);
+}
