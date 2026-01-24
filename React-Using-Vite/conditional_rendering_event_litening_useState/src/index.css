@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: main;
+    src: url(./assets/fonts/GoogleSansFlex-VariableFont_GRAD\,ROND\,opsz\,slnt\,wdth\,wght.ttf);
+}
+
+body{
+    font-family: main;
+    background: #f8f8f8;
+}
